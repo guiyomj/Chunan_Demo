@@ -1,0 +1,587 @@
+select {
+    border-radius: 0 !important;
+    height: 40px !important;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 0 5px;
+    border: 1px solid #dcdcdc;
+}
+
+@media (max-width: 1200px) {
+    #social_btn {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    #board .brd_border.brd_video {
+        height: 480px;
+    }
+
+    #top_bar {
+        display: none;
+    }
+
+    li.nav-item .nav-link.g-px-0 {
+        padding: 0.8rem 1rem;
+    }
+
+    .hs-has-sub-menu > a::after {
+      font-size: 10px;
+    }
+
+    #edu_info .info_list {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #board .brd_border.brd_video {
+        height: 280px;
+    }
+
+    .logo_footer {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    #info .bg, #info .bg2 {
+        height: 580px !important;
+    }
+
+    #info .bg3 {
+        width: 90% !important;
+        margin: 0 5%;
+    }
+
+    #sugang .input_info {
+        width: 100% !important;
+    }
+
+    .text-center--xs {
+        text-align: center;
+    }
+
+    #edulist table td:nth-child(2n) {
+        padding-left: 10px;
+    }
+}
+
+.w-30 {
+    width: 30%;
+}
+
+/* footer */
+footer {
+    min-height: 180px;
+    background: #fff;
+}
+
+footer .menu {
+    text-align: center;
+    padding: 15px 0;
+    border: 1px solid #eee !important;
+}
+
+footer .menu a {
+    color: white;
+    font-weight: 600;
+    font-size: 0.85714rem !important;
+    border-color: #e0e4ea !important;
+}
+
+footer .footer {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+/* end of footer */
+
+/* main */
+.search_box {
+    position: relative;
+    display: block;
+}
+
+.search_icon {
+    float: right;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.click {
+    cursor: pointer;
+}
+
+#board {
+    background-image: url(../img/back1.jpg);
+}
+
+#board .search {
+    font-weight: 600;
+    color: #21499e;
+    background: #fff;
+    padding: 15px 40px;
+    margin-bottom: 40px;
+    border: 2px solid #21499e;
+}
+
+#board .search .search_btn {
+    margin: -4px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #21499e;
+    color: #fff;
+    padding: 5px 9px;
+}
+
+#board .bg {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#board b {
+    color: #21499e;
+}
+
+#board li b {
+    margin-right: 5px;
+    font-size: 110%;
+}
+
+#board li:first-child b {
+    color: #e6372e;
+}
+
+#board label {
+    cursor: pointer;
+    margin: auto 0 auto 6px;
+    font-size: 10px;
+    border-radius: 8px;
+    background: #bbb;
+    padding: 1px 12px;
+    color: #fff;
+}
+
+#board ul {
+    margin-right: 10px;
+    padding: 0;
+    border: 1px solid #ddd;
+}
+
+#board ul li {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 6px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    list-style: none;
+    width: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#board ul li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+#board a.plus {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #aaa;
+    color: #fff;
+    font-size: 1.44286rem;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+}
+
+#info.bg {
+    background-image: url(../img/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#info .bg2 {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#info h2 {
+    letter-spacing: 4px;
+}
+
+.div_split {
+    margin: 30px 0;
+    width: 45px;
+    height: 2px;
+    background: #fff;
+}
+
+#info .more_btn {
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+}
+
+.txt_line {
+    width: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* end of main */
+
+/* notice */
+.tbl table {
+    border-top: 2px solid rgb(72, 90, 125);
+    line-height: 1.5;
+    border-bottom: 1px solid #333;
+    margin-bottom: -1px;
+    font-size: 90%;
+    letter-spacing: -1px;
+    width: 100%;
+    text-align:center;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.tbl table th {
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.tbl table tbody tr:not(:last-child) {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tbl .ac {
+    text-align: center;
+}
+
+.tbl .title {
+    text-align: left;
+}
+
+.tbl table th, .tbl table td {
+    height: 25px;
+    min-height: 25px;
+    padding: 15px 0;
+}
+
+.pagination {
+    padding: 20px 0;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.pg_div {
+	margin: 0 auto;
+	display: table;
+}
+
+.pagination a, .pagination strong, .pagination span {
+    display: inline-block;
+    float: right;
+    position: relative;
+    padding: 7px 8px;
+}
+
+.pagination .paginationList > li {
+    height: 30px;
+    padding: 2px;
+}
+
+.pagination .paginationList > li, .pagination .paginationListNum > li {
+    float: left;
+    list-style: none;
+}
+
+.pagination strong {
+    font-weight: bold;
+    color: rgb(72, 90, 125);
+    border-bottom: 2px solid rgb(72, 90, 125);
+}
+
+.pagination a, .pagination strong, .pagination span {
+    display: inline-block;
+    float: right;
+    position: relative;
+    padding: 7px 8px;
+}
+
+/* end of notice */
+
+/* edu list */
+#edu .img {
+    height: 300px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#edu .edu_div {
+    margin: 10px;
+    height: 350px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#edu .edu_img {
+    height: 150px;
+    border-radius: 4px 4px 0 0;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#edu .edu_info {
+    height: 200px;
+    padding: 10px 20px;
+}
+
+#edu .edu_info h5 {
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: box;
+    margin-top: 1px;
+    max-height: inherit;
+    overflow: hidden;
+    vertical-align: top;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+#edu .edu_btn {
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: fit-content;
+    font-weight: 600;
+    color: #3b5998;
+    font-size: 12px;
+}
+
+#edulist .search_div {
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    padding: 30px;
+}
+
+#edulist .search_div .search_btn {
+    border: 1px solid #4E4E4E;
+    background: #4E4E4E;
+    padding: 15px 40px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+#edulist .edu_div {
+    margin: 10px;
+    height: 380px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#edulist .edu_img {
+    height: 150px;
+    border-radius: 4px 4px 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#edulist .edu_info {
+    height: 230px;
+    padding: 20px;
+}
+
+#edulist .edu_info h5 {
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: box;
+    margin-top: 1px;
+    max-height: inherit;
+    overflow: hidden;
+    vertical-align: top;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+#edulist .edu_btn {
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: fit-content;
+    font-weight: 600;
+    color: #3b5998;
+    font-size: 12px;
+}
+
+#edulist .input_info {
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    border: 1px solid #dcdcdc;
+    border-radius: 0;
+}
+
+#edulist .input_info2 {
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    border: 1px solid #dcdcdc;
+    border-radius: 0;
+}
+
+#edulist .calender_btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #4E4E4E;
+    background: #4E4E4E;
+    color: white;
+    padding: 10px;
+}
+
+#edulist table td{
+    height: 50px;
+}
+/* end of edu list */
+
+#edu_info .info_div {
+    padding: 40px;
+    border: 2px solid #e5e5e5;
+    min-height: 250px;
+
+}
+
+#edu_info .info_head {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#edu_info .info_cont {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#edu_info  .info_img {
+    width: 100%;
+    height: auto;
+}
+/* end of sugang list */
+
+/* mypage2 */
+#mylist .detail_btn {
+    border: 1px solid #4E4E4E;
+    background: #4E4E4E;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 15px;
+}
+
+.list_option .selected {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.list_option .btn {
+    border-radius: 0;
+    padding: 15px 0;
+}
+/* end of mypage2 */
+
+/* newdeal intro */
+#newdeal_info .info_div {
+    min-height: 200px;
+    padding: 20px 40px;
+    border: 2px solid #eee;
+}
+
+#newdeal_info .info_div .info_img {
+    min-height: 200px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#newdeal_info .info_div .info_list div {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 0;
+}
+/* end of newdeal intro */
+
+/* edu intro */
+#sugang_info .info_div {
+    padding: 10px 20px;
+    background: #eee;
+}
+/* end of edu intro */
+
+#banner {
+    background: #21499e;
+}
+
+#banner .col-8 {
+    margin: auto 0;
+    color: #fff;
+}
+
+#banner .banner_name {
+    font-size: 16px;
+    padding: 0;
+}
+
+.customPrevBtn, .customNextBtn {
+    cursor: pointer;
+    color: #fff;
+    margin: auto 0;
+}
+
+.navbar-brand {
+    color: #111;
+    font-weight: 600;
+}
+
+.upper_bar {
+    font-size: 12px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+header {
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-image: url(../img/header.png);
+}
+
+#top_bar {
+    background: #ffffff78;
+}
