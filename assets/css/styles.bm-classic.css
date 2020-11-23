@@ -9,6 +9,13 @@
        url('../fonts/notokr-regular.woff2') format('woff2'),
        url('../fonts/notokr-regular.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'Jal_Onuel';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Onuel.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 /*------------------------------------
   Default Styles
 ------------------------------------*/
@@ -33470,7 +33477,7 @@ svg.g-transition--linear polygon {
 }
 
 .u-block-hover:hover .g-color-primary--hover, .g-color-primary--hover:hover {
-  color: #6281c8 !important;
+  color: #21499e !important;
 }
 
 .g-parent:hover .g-color-primary--parent-hover {

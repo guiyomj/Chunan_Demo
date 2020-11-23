@@ -9,7 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="assets/img/logo/logo_small.png">
 
     <!-- CSS Global Compulsory -->
     <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.css">
@@ -44,7 +44,7 @@
         <div class="container">
           <div class="row">
             <a class="click"><i class="fas fa-home g-mr-5"></i>처음으로</a>
-            <a class="click ml-auto">로그인　|　회원가입　|　사이트맵　|　관련사이트　|　언어　|　챗봇</a>
+            <a class="click ml-auto">로그인　|　회원가입　|　사이트맵　|　관련사이트　|　<span class="g-color-darkred">언어<i class="fas fa-chevron-down small g-ml-5"></i></span>　|　<i class="fas fa-robot g-mr-5"></i>챗봇 +</a>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@
             <div class="row align-items-center">
               <div class="col-md-4 g-hidden-md-down" style="margin-right: auto">
                 <a href="index.html" class="navbar-brand">
-                  <img src="assets/img/logo/logo.png" alt="Logo" style="max-height: 80px;">
+                  <img src="assets/img/logo/logo.png" class="g-mr-10" alt="Logo" style="max-height: 80px;">
                   빅데이터 포털
                 </a>
               </div>
@@ -68,10 +68,10 @@
 
         <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3">
           <nav class="js-mega-menu navbar navbar-expand-lg g-px-0">
-            <div class="container g-px-15">
+            <div class="container g-px-20">
               <!-- Logo -->
               <a class="navbar-brand g-hidden-lg-up" href="index.html">
-                <img src="assets/img/logo/logo.png" alt="Logo" style="max-height: 80px;">
+                <img src="assets/img/logo/logo.png" alt="Logo" class="g-mr-10" style="max-height: 80px;">
                 빅데이터 포털
               </a>
               <!-- End Logo -->
@@ -91,135 +91,73 @@
               </button>
               <!-- End Responsive Toggle Button -->
 
-              <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg" id="navBar">
+              <div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar">
                 <ul class="navbar-nav g-font-weight-600">
                   <li class="nav-item hs-has-sub-menu g-mr-20--lg g-mr-30--xl">
-                    <a id="nav-link--home" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="#"
+                    <a id="nav-link--home" class="g-py-15 nav-link text-uppercase g-color-primary--hover g-px-0" href="#"
                        aria-haspopup="true"
                        aria-expanded="false"
                        aria-controls="nav-submenu--home">
                       빅데이터 이해
                     </a>
-                    <ul id="nav-submenu--home" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-170 g-brd-top g-brd-primary g-brd-top-2 g-mt-17"
-                        aria-labelledby="nav-link--home">
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="portal_intro.html">홈페이지 안내</a>
-                      </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="#">추진체계</a>
-                      </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="#">참여기관</a>
-                      </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="#">속성조회
-                          <span class="u-label g-rounded-3 g-font-size-10 g-bg-facebook g-pos-rel g-top-minus-1 g-py-3 g-ml-20">New</span>
-                        </a>
-                      </li>
-                    </ul>
+                  </li>
+                  
+                  <li class="hs-has-mega-menu nav-item g-mx-10--lg g-mx-20--xl" data-animation-in="fadeIn" data-animation-out="fadeOut" data-position="right">
+                    <a id="mega-menu-label-5" class="g-py-15 nav-link text-uppercase g-px-0" href="#" aria-haspopup="true" aria-expanded="false">데이터 제공</a>
+
+                    <!-- Mega Menu -->
+                    <div class="hs-mega-menu u-shadow-v11 g-text-transform-none g-brd-0 g-bg-gray-dark-v5 g-left-15 g-right-15 g-px-30 g-mt-0 g-mt-7--lg--scrolling animated hs-position-right" aria-labelledby="mega-menu-label-5">
+                      <div class="g-pos-abs hs-arrow"></div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <ul class="list-inline text-center mb-0 g-py-5 g-font-size-14">
+                            <li class="list-inline-item">
+                              <a class="d-inline-block g-color-white-opacity-0_8 g-color-white--hover g-px-20 g-py-8" href="#">데이터셋</a>
+                            </li>
+                            <li class="list-inline-item">
+                              <a class="d-inline-block g-color-white-opacity-0_8 g-color-white--hover g-px-20 g-py-8" href="#">천안시 보유 데이터</a>
+                            </li>
+                            <li class="list-inline-item">
+                              <a class="d-inline-block g-color-white-opacity-0_8 g-color-white--hover g-px-20 g-py-8" href="#">조사 데이터</a>
+                            </li>
+                            <li class="list-inline-item">
+                              <a class="d-inline-block g-color-white-opacity-0_8 g-color-white--hover g-px-20 g-py-8" href="#">천안시 통계</a>
+                            </li>
+                            <li class="list-inline-item">
+                              <a class="d-inline-block g-color-white-opacity-0_8 g-color-white--hover g-px-20 g-py-8" href="#">천안시 데이터맵</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Mega Menu -->
                   </li>
                   
                   <li class="nav-item hs-has-sub-menu g-mx-20--lg g-mx-30--xl">
-                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="#"
+                    <a id="nav-link--pages" class="g-py-15 nav-link text-uppercase g-color-primary--hover g-px-0" href="#"
                        aria-haspopup="true"
                        aria-expanded="false"
                        aria-controls="nav-submenu--pages">
-                       교육콘텐츠
+                       활용/분석
                       </a>
-                    <ul id="nav-submenu--home" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-170 g-brd-top g-brd-primary g-brd-top-2 g-mt-17"
-                    aria-labelledby="nav-link--home">
-                    <li class="dropdown-item g-bg-secondary--hover">
-                      <a class="nav-link g-color-secondary-dark-v1" href="edu_intro.html">이용안내</a>
-                    </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="#">교육 카테고리</a>
-                      </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="edu_list.html">교육목록
-                          <span class="u-label g-rounded-3 g-font-size-10 g-bg-facebook g-pos-rel g-top-minus-1 g-py-3 g-ml-20">New</span>
-                        </a>
-                      </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="#">교육자료실
-                          <span class="u-label g-rounded-3 g-font-size-10 g-bg-facebook g-pos-rel g-top-minus-1 g-py-3 g-ml-20">New</span>
-                        </a>
-                      </li>
-                    </ul>
                   </li>
                   
                   <li class="nav-item hs-has-sub-menu g-mx-20--lg g-mx-30--xl">
-                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="#"
+                    <a id="nav-link--pages" class="g-py-15 nav-link text-uppercase g-color-primary--hover g-px-0" href="#"
                        aria-haspopup="true"
                        aria-expanded="false"
                        aria-controls="nav-submenu--pages">
-                       디지털 역량센터
+                       소통/참여
                       </a>
-                    <ul id="nav-submenu--home" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-170 g-brd-top g-brd-primary g-brd-top-2 g-mt-17"
-                    aria-labelledby="nav-link--home">
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="#">센터소개</a>
-                      </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="map.html">지역별 센터검색
-                          <span class="u-label g-rounded-3 g-font-size-10 g-bg-lightred g-pos-rel g-top-minus-1 g-py-3 g-ml-20">Hot</span>
-                        </a>
-                      </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="#">교육장/강사조회</a>
-                      </li>
-                    </ul>
-                  </li>
-                  
-                  <li class="nav-item hs-has-sub-menu g-mx-20--lg g-mx-30--xl">
-                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="#"
-                       aria-haspopup="true"
-                       aria-expanded="false"
-                       aria-controls="nav-submenu--pages">
-                       고객 지원센터
-                      </a>
-                    <ul id="nav-submenu--home" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-170 g-brd-top g-brd-primary g-brd-top-2 g-mt-17"
-                    aria-labelledby="nav-link--home">
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="notice.html">공지사항</a>
-                      </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="#">Q&A</a>
-                      </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="#">FAQ</a>
-                      </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="event.html">이벤트/공모전
-                          <span class="u-label g-rounded-3 g-font-size-10 g-bg-facebook g-pos-rel g-top-minus-1 g-py-3 g-ml-20">New</span>
-                        </a>
-                      </li>
-                    </ul>
                   </li>
                   
                   <li class="nav-item hs-has-sub-menu g-ml-20--lg g-ml-30--xl">
-                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="#"
+                    <a id="nav-link--pages" class="g-py-15 nav-link text-uppercase g-color-primary--hover g-px-0" href="#"
                        aria-haspopup="true"
                        aria-expanded="false"
                        aria-controls="nav-submenu--pages">
-                       나의 교육관리
+                       이용안내
                       </a>
-                    <ul id="nav-submenu--home" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-170 g-brd-top g-brd-primary g-brd-top-2 g-mt-17"
-                    aria-labelledby="nav-link--home">
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="#">내정보수정</a>
-                      </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="my_page_2.html">수강목록</a>
-                      </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="#">수료증조회</a>
-                      </li>
-                      <li class="dropdown-item g-bg-secondary--hover">
-                        <a class="nav-link g-color-secondary-dark-v1" href="#">설문조사
-                          <span class="u-label g-rounded-3 g-font-size-10 g-bg-facebook g-pos-rel g-top-minus-1 g-py-3 g-ml-20">New</span>
-                        </a>
-                      </li>
-                    </ul>
                   </li>
                 </ul>
               </div>
@@ -229,100 +167,94 @@
       </header>
       <!-- End Header -->
 
-      <section class="g-py-20" id="slide">
-        <div class="container-fluid" style="padding:0">
+      <section id="slide">
+        <div class="container-fluid g-px-0">
           <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" style="background: #35731a">
+            <div class="carousel-inner g-px-20 g-px-40--md">
+              <div class="carousel-item active">
                 <div class="mask flex-center">
                   <div class="container">
                     <div class="row align-items-center">
-                      <div class="col-md-7 col-12 order-md-1 order-2">
-                        <h4>작지만 강한 의료용 자기발생기<br>패인팔팔패스</h4>
-                        <p>100원짜리 동전과 비슷한 크기인데<br>근육통 완화에 도움을 준다고?</p>
-                        <a href="#" style="background-color: #1c3a0e;">바로가기</a> </div>
-                      <div class="col-md-5 col-12 order-md-2 order-1"><img src="/img/funding/pal.png" class="mx-auto" alt="slide"></div>
+                      <div class="col-md-7 order-md-1 order-1">
+                        <h4><b>천안시 빅데이터 포털</b>에서<br>
+                        <h5>천안시의 모든 데이터와 소통해 보세요</h5>
+                        <div class="more_btn g-mt-80--lg g-mt-40 g-mb-40 g-mb-0--md">more +</div>
+                      </div>
+                      <div class="col-md-5 order-md-2 order-2"><img src="assets/img/tp1.png" class="mx-auto" alt="slide"></div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item" style="background: white">
+              <div class="carousel-item">
                 <div class="mask flex-center">
                   <div class="container">
                     <div class="row align-items-center">
-                      <div class="col-md-7 col-12 order-md-1 order-2">
-                        <h4 style="color:black">대한민국 최초 크립토 외환은행 <br> 미래금융</h4>
-                        <p style="color:black">대한민국에서 가장 합법적으로 <br>
-                          디지털 자산 시대를 열고 있는 크립토 파이낸스 회사</p>
-                        <a href="#" style="background-color: rgb(44, 37, 37);">바로가기</a> </div>
-                      <div class="col-md-5 col-12 order-md-2 order-1"><img src="/img/funding/crowdy.jpg" class="mx-auto" alt="slide"></div>
+                      <div class="col-md-7 order-md-1 order-1">
+                        <h4><b>천안시 빅데이터 포털</b>에서<br>
+                        <h5>천안시의 모든 데이터와 소통해 보세요</h5>
+                        <div class="more_btn g-mt-80--lg g-mt-40 g-mb-40 g-mb-0--md">more +</div>
+                      </div>
+                      <div class="col-md-5 order-md-2 order-2"><img src="assets/img/tp1.png" class="mx-auto" alt="slide"></div>
                     </div>
                   </div>
                 </div>
               </div>
+              <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ul>
             </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </a>
           </div>
-          <script>
-              $('#myCarousel').carousel({
-                interval: 3000
-                }) ;
-          </script>
         </div>
       </section>
 
       <section class="g-py-10" id="banner">
-        <div class="container-fluid">
-          <div class="row">
+        <div class="container-fluid g-px-0 g-px-60--lg g-px-40--md">
+          <div class="row-center">
             <div class="customPrevBtn">
               <i class="fas fa-chevron-left"></i>
             </div>
-            <div class="owl-carousel g-px-10" style="width:90%">
+            <div class="owl-carousel g-px-20" style="width:90%">
               <a href="#">
-                <div class="row">
-                  <div class="col-4"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon1.png"></div>
-                  <div class="col-8 banner_name">교통</div>
+                <div class="banners">
+                  <div class="banner_img"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon1.png"></div>
+                  <div class="banner_name">교통</div>
                 </div>
               </a>
               <a href="#">
-                <div class="row">
-                  <div class="col-4"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon2.png"></div>
-                  <div class="col-8 banner_name">기업/농수산</div>
+                <div class="banners">
+                  <div class="banner_img"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon2.png"></div>
+                  <div class="banner_name">기업/농수산</div>
                 </div>
               </a>
               <a href="#">
-                <div class="row">
-                  <div class="col-4"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon3.png"></div>
-                  <div class="col-8 banner_name">경제/세무</div>
+                <div class="banners">
+                  <div class="banner_img"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon3.png"></div>
+                  <div class="banner_name">경제/세무</div>
                 </div>
               </a>
               <a href="#">
-                <div class="row">
-                  <div class="col-4"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon4.png"></div>
-                  <div class="col-8 banner_name">도시/주택</div>
+                <div class="banners">
+                  <div class="banner_img"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon4.png"></div>
+                  <div class="banner_name">도시/주택</div>
                 </div>
               </a>
               <a href="#">
-                <div class="row">
-                  <div class="col-4"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon5.png"></div>
-                  <div class="col-8 banner_name">환경/위생</div>
+                <div class="banners">
+                  <div class="banner_img"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon5.png"></div>
+                  <div class="banner_name">환경/위생</div>
                 </div>
               </a>
               <a href="#">
-                <div class="row">
-                  <div class="col-4"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon6.png"></div>
-                  <div class="col-8 banner_name">복지</div>
+                <div class="banners">
+                  <div class="banner_img"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon6.png"></div>
+                  <div class="banner_name">복지</div>
                 </div>
               </a>
               <a href="#">
-                <div class="row">
-                  <div class="col-4"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon7.png"></div>
-                  <div class="col-8 banner_name">공공데이터</div>
+                <div class="banners">
+                  <div class="banner_img"><img class="img-fluid d-block mx-auto g-py-20" src="assets/img/icons/icon7.png"></div>
+                  <div class="banner_name">공공데이터</div>
                 </div>
               </a>
             </div>
@@ -335,10 +267,11 @@
 
       <!-- Board Block -->
       <section id="board">
-        <div class="bg g-py-40">
+        <div class="bg g-pt-40 g-pb-0 g-pb-40--lg">
           <div class="container">
             <div class="search g-mx-40--md">
-              <a>통합검색 ▼</a>
+              <a class="click g-mr-10">통합검색<i class="fas fa-chevron-down small g-mx-10"></i></a>
+              <input class="w-50" type="text" placeholder="내용 검색">
               <a class="search_btn float-right"><i class="fas fa-search"></i></a>
             </div>
             <div class="row no-gutters">
@@ -402,64 +335,17 @@
       <!-- End Info Block -->
 
       <footer>
-        <div class="menu g-color-secondary-light-v1 g-font-size-12">
-          <span class="g-font-weight-600 click">개인정보처리방침</span>　 |　 
-          <span class="g-font-weight-600 click">저작권 정책</span>　 |　 
-          <span class="g-font-weight-600 click">이용약관</span>　 |　 
-          <span class="g-font-weight-600 click">찾아오시는 길</span>
+        <div class="menu g-font-size-13">
+          <span class="click">개인정보처리방침</span>　 |　 
+          <span class="click">저작권 정책</span>　 |　 
+          <span class="click">이용약관</span>　 |　 
+          <span class="click">찾아오시는 길</span>
         </div>
-        <div class="container g-pt-20 g-pb-20">
-          <div class="footer logo_footer">
-            <img class="img-fluid d-block mx-auto" src="assets/img/logo/logo_footer.png" alt="LOGO2">
+        <div class="container g-py-20" style="display: flex;">
+          <div class="footer">
+            <span class="g-font-size-13">(31162) 충남 천안시 서북구 번영로 156 / 천안시 콜센터 : 1422-36</span><br><br>
+            <span class="g-font-size-13">Copyrightⓒ Cheonan-Si. All rights reserved.</span>
           </div>
-          <small class="footer g-color-secondary-light-v1 g-font-weight-600">
-            <span class="g-font-size-12">대구본원 : 대구광역시 동구 첨단로 53 (41068) 대표전화 053-230-1114</span><br>
-            <span class="g-font-size-12">서울사무소 : 서울특별시 중구 청계천로 14(04520) 대표전화 02-6191-2114</span><br>
-            <span class="g-font-size-12">제주 NIA 글로벌센터 : 제주특별자치도 서귀포시 서호중앙로 68-11 (63568) 대표전화 064-909-3114</span><br><br>
-            <span class="g-font-size-12">Copyright ⓒ 2017 한국정보화진흥원. All Rights Reserved.</span>
-          </small>
-          <!-- Footer - Top Section -->
-          <div class="row align-items-center" id="social_btn">
-            <div class="col-md-4 ml-auto">
-              <!-- Social Icons -->
-              <ul class="list-inline mb-0">
-                <li class="list-inline-item g-mx-2">
-                  <a class="u-icon-v2 u-icon-size--sm g-brd-secondary-light-v2 g-color-secondary-dark-v2 g-color-white--hover g-bg-primary--hover g-font-size-default rounded" href="#"
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      title="Like Us on Facebook">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item g-mx-2">
-                  <a class="u-icon-v2 u-icon-size--sm g-brd-secondary-light-v2 g-color-secondary-dark-v2 g-color-white--hover g-bg-primary--hover g-font-size-default rounded" href="#"
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      title="Follow Us on Twitter">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item g-mx-2">
-                  <a class="u-icon-v2 u-icon-size--sm g-brd-secondary-light-v2 g-color-secondary-dark-v2 g-color-white--hover g-bg-primary--hover g-font-size-default rounded" href="#"
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      title="Subscribe to Our YouTube Channel">
-                    <i class="fa fa-youtube"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item g-mx-2">
-                  <a class="u-icon-v2 u-icon-size--sm g-brd-secondary-light-v2 g-color-secondary-dark-v2 g-color-white--hover g-bg-primary--hover g-font-size-default rounded" href="#"
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      title="Follow Us on Instagram">
-                    <i class="fa fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-              <!-- End Social Icons -->
-            </div>
-          </div>
-          <!-- End Footer - Top Section -->
         </div>
       </footer>
       <!-- End Footer -->
@@ -549,20 +435,30 @@
           $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
         }, 1);
       });
-
-      $(window).resize(function() {
-        console.log(window.innerWidth);
-      });
       
       $(document).ready(function() {
         var owl = $('.owl-carousel');
         owl.owlCarousel({
           items: 7,
           loop: true,
-          margin: 10,
           nav:false,
           dots:false,
-          autoplay: false
+          autoplay: false,
+          responsiveClass:true,
+          responsive:{
+              0:{
+                  items:3
+              },
+              768:{
+                  items:4
+              },
+              991:{
+                  items:5
+              },
+              1280:{
+                  items:7
+              }
+          }
         });
     
         $('.customNextBtn').click(function() {
@@ -573,6 +469,10 @@
             owl.trigger('prev.owl.carousel', [300]);
         });
       });
+
+      $('#myCarousel').carousel({
+        interval: 3000
+        }) ;
     </script>
   </body>
 </html>

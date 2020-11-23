@@ -191,6 +191,7 @@ figure {
 }
 
 img {
+  object-fit: cover;
   vertical-align: middle;
   border-style: none;
 }
@@ -4328,7 +4329,6 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
 }
 
 .navbar .container,
@@ -6558,10 +6558,8 @@ a.close.disabled {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-  justify-content: center;
   padding-left: 0;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-left: 10%;
   list-style: none;
 }
 
@@ -6569,13 +6567,12 @@ a.close.disabled {
   box-sizing: content-box;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+  width: 30px;
+  height: 5px;
   margin: 0 5px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #666;
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;

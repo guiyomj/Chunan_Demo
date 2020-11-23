@@ -63,7 +63,7 @@
 	margin-top: 0;
 }
 
-.hs-has-sub-menu > a::after {
+.hs-has-sub-menu > a::after, .hs-has-mega-menu > a::after {
   content: "\e900";
   font-family: "hs-icons" !important;
   font-size: 0px;
